@@ -1,0 +1,63 @@
+html {
+    font-size: 50%; /* 16px alapból DE most az oldalon lévő minden betű = 8px nagyságú (16x0.5) */
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace; 
+    /* hogy minden ugyanolyan legyen érdemes egyszer definiálni egy body vagy html root-ban és kész
+    Tehát nem kell külön külön mindehova megadni ugyanazt a font tipust, alap szineket stb. */
+}
+
+p {
+    color: black;
+    background-color: rgb(92, 255, 190);
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem; /* ez 12px nagyságú lesz (8x1.5) */
+    text-shadow: 10px 12px 8px rgb(255, 0, 0);
+}
+
+a {
+    text-decoration: none; 
+    font-style: oblique;
+    font-size: 1.5rem; /* ez 12px nagyságú lesz (8x1.5) */
+}
+
+.heading1 {
+    text-transform: capitalize;
+    font-size: 4rem;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.heading2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', sans-serif;
+    text-align: center;
+    color: #ff6649;
+    font-size: 2rem; /* ez 16px nagyságú lesz (8x2.0) */
+}
+
+.loremclass {
+    text-align: justify;
+}
+
+.paraclass1 {
+    font-family: "Roboto", sans-serif;
+}
+
+.liclass1 {
+    line-height: 2.5;
+    letter-spacing: 10px;
+}
+
+.pc {
+    text-align: right;
+}
+
+ul {
+    list-style-position: outside;
+    list-style-image: url(arrow.png);
+}

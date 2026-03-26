@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Enterprise Cloud Solutions | TechCorp</title>
+
+    <meta name="description" content="Secure, scalable AI infrastructure for modern teams.">
+    <link rel="canonical" href="https://techcorp.com/solutions">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://api.techcorp.com">
+    <link rel="preload" href="/fonts/main.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+
+<body>
+    <a href="#main">Skip to content</a>
+
+    <header>
+        <a href="/" aria-label="TechCorp Home">
+            <img src="/logo.svg" alt="" aria-hidden="true" width="150" height="40">
+        </a>
+
+        <nav aria-label="Main">
+            <ul>
+                <li><a href="/features">Features</a></li>
+                <li><a href="/pricing" aria-current="page">Pricing</a></li>
+                <li>
+                    <button type="button" aria-haspopup="dialog" aria-controls="login-modal">
+                        Login
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main" tabindex="-1">
+        
+        <section aria-labelledby="hero-heading">
+            <h1 id="hero-heading">Scale your ideas with Global Infrastructure</h1>
+            <p>Deploy in 20+ regions with 99.9% uptime guaranteed.</p>
+            
+            <nav aria-label="Hero actions">
+                <a href="/signup">Start Free Trial</a>
+                <button type="button">Watch Demo</button>
+            </nav>
+
+            <picture>
+                <source srcset="/hero.avif" type="image/avif">
+                <img src="/hero.jpg" alt="A dashboard showing global server distribution" 
+                     width="1200" height="700" fetchpriority="high">
+            </picture>
+        </section>
+
+        <section id="features" aria-labelledby="features-heading">
+            <h2 id="features-heading">Why choose TechCorp?</h2>
+
+            <article>
+                <h3>Bank-Grade Security</h3>
+                <p>AES-256 encryption protects data at rest and in transit.</p>
+                <a href="/security" aria-label="Read our security whitepaper">Learn more</a>
+            </article>
+
+            <article>
+                <h3>Global Edge Network</h3>
+                <p>Deploy your applications across 20+ regions worldwide.</p>
+                <a href="/regions">View regions</a>
+            </article>
+        </section>
+
+        <aside aria-label="Testimonial">
+            <figure>
+                <blockquote cite="https://startupinc.com/review">
+                    <p>"TechCorp changed how we handle deployment across regions."</p>
+                </blockquote>
+                <figcaption>
+                    — <cite>Jane Doe, CTO at StartupInc</cite>
+                </figcaption>
+            </figure>
+        </aside>
+
+        <section aria-labelledby="newsletter-heading">
+            <h2 id="newsletter-heading">Stay updated</h2>
+            <form action="/api/subscribe" method="post">
+                <label for="newsletter-email">Email address</label>
+                <input id="newsletter-email" type="email" name="email" 
+                       required autocomplete="email" placeholder="email@example.com">
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <nav aria-label="Footer Navigation">
+            <section>
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="/features">Features</a></li>
+                    <li><a href="/pricing">Pricing</a></li>
+                </ul>
+            </section>
+        </nav>
+
+        <section>
+            <h4>Contact</h4>
+            <address>
+                123 Innovation Way, San Francisco, CA<br>
+                <a href="mailto:hello@techcorp.com">hello@techcorp.com</a>
+            </address>
+        </section>
+
+        <p><small>&copy; 2026 TechCorp. All rights reserved.</small></p>
+    </footer>
+
+    <dialog id="login-modal">
+        <form method="dialog">
+            <h2>Login</h2>
+            <button type="submit">Close</button>
+        </form>
+    </dialog>
+
+</body>
+</html>
