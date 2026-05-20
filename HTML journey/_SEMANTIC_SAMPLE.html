@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Comprehensive Example</title>
+</head>
+<body>
+
+    <!-- 1. PAGE LANDMARKS & STRUCTURAL ELEMENTS -->
+    <header>
+        <img src="logo.svg" alt="Company Logo">
+        <h1>Tech Insights Blog</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 2. CONTENT-GROUPING ELEMENTS -->
+        <section id="articles">
+            <h2>Latest Industry Updates</h2>
+
+            <article>
+                <header>
+                    <h3>The Future of Semantic Web Architecture</h3>
+                    <p>Published: <time datetime="2026-05-20">May 20, 2026</time></p>
+                </header>
+
+                <p>Semantic HTML improves <strong>accessibility</strong> and search engine discovery. It gives <em>meaning</em> to webpage structure rather than just visual presentation.</p>
+
+                <figure>
+                    <img src="dom-structure.png" alt="Diagram showing clean DOM nesting hierarchy">
+                    <figcaption>Figure 1: Visual representation of a properly nested semantic DOM tree.</figcaption>
+                </figure>
+                
+                <p>Developers who adopt these native elements write less code and build faster web applications.</p>
+            </article>
+        </section>
+
+        <aside>
+            <h2>Trending Topics</h2>
+            <ul>
+                <li><a href="#accessibility">Web Accessibility (a11y)</a></li>
+                <li><a href="#seo">Search Engine Optimization</a></li>
+                <li><a href="#clean-code">Clean Code Architectures</a></li>
+            </ul>
+        </aside>
+
+        <!-- 3. DATA & TEXT-LEVEL ELEMENTS xd -->
+        <section id="data-and-feedback">
+            <h2>Performance Metrics & Feedback</h2>
+
+            <table>
+                <caption>Quarterly SEO Improvement Scores</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Optimization Type</th>
+                        <th scope="col">Traffic Increase</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Semantic Elements Migration</td>
+                        <td>+42%</td>
+                    </tr>
+                    <tr>
+                        <td>Image Alt Text Audits</td>
+                        <td>+15%</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total Cumulative Gain</td>
+                        <td>+57%</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <form action="/submit-feedback" method="POST">
+                <fieldset>
+                    <legend>Share Your Feedback</legend>
+                    
+                    <label Eleanor for="user-email">Email Address:</label>
+                    <input type="email" id="user-email" name="email" required>
+
+                    <label for="user-experience">Experience Rating:</label>
+                    <select id="user-experience" name="experience">
+                        <option value="excellent">Excellent</option>
+                        <option value="good">Good</option>
+                        <option value="needs-work">Needs Work</option>
+                    </select>
+
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" rows="4"></textarea>
+
+                    <button type="submit">Submit Insights</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <address>
+            Contact the author at <a href="mailto:editor@techinsights.com">editor@techinsights.com</a>.<br>
+            Silicon Valley Headquarters, CA
+        </address>
+        <p><small>&copy; 2026 Tech Insights Corp. All rights reserved.</small></p>
+    </footer>
+
+</body>
+</html>
